@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PG Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-main">
+    <header>
+        <img src="assets/imgs/headshot.jpg" alt="headshot" class="headshot">
+        <h1 id="name"> Hipolito Gonzalez III </h1>
+        <p id="contactInfo"> San Antonio | Veteran | Software Developer </p>
+    </header>
+    <main class="container">
+        <section id="skillsSection">
+            <div class="container">
+                <div class="container h2-tech-skills">
+                    <h2> Technical Skills and Abilities</h2>
+                </div>
+                <div class="container skills">
+                    <h3>Programming Languages:</h3><p> JavaScript, Java, HTML5, CSS</p>
+                    <h3>Front-End:</h3><p> Bootstrap, ReactJS, jQuery </p>
+                    <h3>Back-End:</h3><p> Node.js, Express, MySQL, MongoDB, Axios, Springboot </p>
+                    <h3>Testing/Deployment:</h3><p> Jasmine, Mocha, Chai, Amazon AWS (EC2/S3), Heroku </p>
+                    <h3>Developer Tools:</h3><p> Git, NPM, Webpack, Babel, Postman, Chrome DevTools, Agile Methodology </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="projectsSection">
+            <div class="container">
+                <div class="container h2-software-apps">
+                    <h2>Software Engineering Applications</h2>
+                </div>
+                <div class="container projects">
+                    <div class="card">
+                        <div class="card-title">
+                            <h2>Nozama</h2>
+                        </div>
+                        <div class="card-body">
+                            <p> React | Express | MySQL | Node.JS | AWS EC2/S3 </p>
+                            <ul class="feature-list">
+                                <li class="feature-item">A Full Stack implementation of an Amazon product page using service-oriented architecture and scaling</li>
+                                <li class="feature-item">As a software Engineer on this team, I built an interactive photo gallery component using react lifecycle methods, Amazon Simple Storage Service, and advanced CSS styling</li>
+                                <li class="feature-item">Containerized application with Docker, built proxy server and deployed application with AWS EC2</li>
+                                <li class="feature-item">Optimized server to receive images from one server and distribute to other servers and database</li>
+                            </ul>
+                            <a class="github-repo" href="https://github.com/NozamaFEC" target=”_blank”>GitHub Repo</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">
+                            <h2>COVID-19 News Now</h2>
+                        </div>
+                        <div class="card-body">
+                            <p> React | Express | MySQL | Node.JS | Heroku | jQuery | MySQL
+                            </p>
+                            <ul class="feature-list">
+                                <li class="feature-item">User facing platform designed during COVID-19 to provide a range of news articles related to the Corona Virus Pandemic</li>
+                                <li class="feature-item">Implemented data exchange server using express to create CRUD routes, improving request/response time from API to client</li>
+                                <li class="feature-item">Designed a codebase to utilize props handling for better adaptability and improved user filtering</li>
+                                <li class="feature-item">Distributed and deployed application to the web using Heroku CLI (No longer deployed)</li>
+                            </ul>
+                            <a class="github-repo" href="https://github.com/polig57/COVID-19" target=”_blank”>GitHub Repo</a>
+                        </div>
+                    </div>
+                    <!--                <div class="card">-->
+                    <!--                    <div class="card-title">-->
+                    <!--                        <h2>Project Name 3</h2>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="card-body">-->
+                    <!--                        <p>Technologies used</p>-->
+                    <!--                        <ul class="feature-list">-->
+                    <!--                            <li class="feature-item">Info about project</li>-->
+                    <!--                            <li class="feature-item">Info about project</li>-->
+                    <!--                            <li class="feature-item">Info about project</li>-->
+                    <!--                            <li class="feature-item">Info about project</li>-->
+                    <!--                        </ul>-->
+                    <!--                        <a class="github-repo" href="https://github.com/">GitHub Repo</a>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="employmentHistory">
+            <h2>Employment History</h2>
+            <div id="timeline"></div> <!-- Placeholder for the JavaScript array -->
+        </section>
+        <!--    This is another style to have employment history show    -->
+        <!--    <section id="employmentSection">-->
+        <!--        <div class="container">-->
+        <!--            <h2>Employment History Lives Here</h2>-->
+        <!--            <div class="card">-->
+        <!--                <div class="card-title">-->
+        <!--                    <h2>Job 1</h2>-->
+        <!--                </div>-->
+        <!--                <div class="card-body">-->
+        <!--                    <p>Company | Location | Date Worked</p>-->
+        <!--                    <ul class="bullet-list">-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="card">-->
+        <!--                <div class="card-title">-->
+        <!--                    <h2>Job 2</h2>-->
+        <!--                </div>-->
+        <!--                <div class="card-body">-->
+        <!--                    <p>Company | Location | Date Worked</p>-->
+        <!--                    <ul class="bullet-list">-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="card">-->
+        <!--                <div class="card-title">-->
+        <!--                    <h2>Job 3</h2>-->
+        <!--                </div>-->
+        <!--                <div class="card-body">-->
+        <!--                    <p>Company | Location | Date Worked</p>-->
+        <!--                    <ul class="bullet-list">-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="card">-->
+        <!--                <div class="card-title">-->
+        <!--                    <h2>Job 4</h2>-->
+        <!--                </div>-->
+        <!--                <div class="card-body">-->
+        <!--                    <p>Company | Location | Date Worked</p>-->
+        <!--                    <ul class="bullet-list">-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                        <li class="job-bullet">Info about ROLE</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </section>-->
+        <hr>
+        <section id="educationSection">
+            <div>
+                <div class="container education-section">
+                    <h2>Education</h2>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h2>Austin Community College</h2>
+                    </div>
+                    <div class="card-body">
+                        <p> Computer Science | AUGUST 2021 - DECEMBER 2021 </p>
+                        <ul class="school-list">
+                            <li class="school-bullet">Completed one semester of a Computer Science degree. No degree obtained.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h2>Galvanize</h2>
+                    </div>
+                    <div class="card-body">
+                        <p> Advanced Software Engineering Immersive Program | NOVEMBER 2020 - MARCH 2020 </p>
+                        <ul class="school-list">
+                            <li class="school-bullet">Graduate of an exclusive 18-week Full Stack Software Engineering program, aimed at training transitioning service members in JavaScript web development.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h2>University of Phoenix</h2>
+                    </div>
+                    <div class="card-body">
+                        <p> Business Management | AUGUST 2018 - DECEMBER 2019 </p>
+                        <ul class="school-list">
+                            <li class="school-bullet">Completed one semester of a Computer Science degree. No degree obtained.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+</div>
+
+<footer>
+    <img src="assets/imgs/headshot.jpg" alt="headshot-img" class="headshot">
+    <div class="footer-info">
+        <p> Email: <a href="gonzalezpoli10@gmail.com" target=”_blank”>gonzalezpoli10@gmail.com</a> </p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/polig/" target=”_blank”>Poli Gonzalez</a></p>
+        <p>GitHub: <a href="https://github.com/polig57" target=”_blank”>PoliG57</a></p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
