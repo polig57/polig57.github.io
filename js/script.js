@@ -17,13 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const header = document.createElement('div');
         header.className = 'entry-header';
-        header.innerText = job.title;
+        header.innerText = `${job.title}`;
+
 
         const content = document.createElement('div');
         content.className = 'entry-content';
         content.innerHTML = `<strong>Company:</strong> ${job.company}<br>
                              <strong>Years:</strong> ${job.years}<br>
-                             <p>${job.description}<br></p>
+                             <p class="job-description">${job.description}<br></p>
                              <ul><li>${job.bullet1}</li><li>${job.bullet2}</li><li>${job.bullet3}</li><li>${job.bullet4}</li></ul>`;
         content.style.display = 'none';
 

@@ -1,59 +1,103 @@
+
 .container-main {
-    /*width: 80%;*/
     margin: auto;
     overflow: hidden;
     padding: 20px;
 }
+
 html {
     box-sizing: border-box;
 }
+
 body {
     background-color: brown;
 }
-header {
+
+.header-info {
     background-color: black;
     width: auto;
-    height: 250px;
+    height: auto;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+#name, #headerInfo{
+    color: aliceblue;
+    text-align: center;
+}
+
 .headshot {
     width: auto;
-    height: 175px;
+    height: 200px;
     border-radius: 50%;
-    /*display: block;*/
-    margin: 20px 20px 20px auto;
+    margin: 20px;
 }
-h1, p {
-    color: aliceblue;
-}
+
 .skills {
     text-align: center;
 }
+
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
-.card-body {
-    /*width: 250px;*/
-}
+
 .feature-list {
     display: flex;
     flex-direction: column;
 }
+
+.card-title {
+    color: aliceblue;
+}
+
+.school-list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#educationSection p {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#educationSection h2{
+    text-align: center;
+}
+
+.school-bullet {
+    width: auto;
+}
+
+li {
+    width: auto;
+}
+
+p {
+    color: rosybrown;
+    text-align: center;
+}
+
 .github-repo {
     display: flex;
     justify-content: space-evenly;
 }
+
+.job-description {
+    width: auto;
+    color: aliceblue;
+}
+
 #timeline .entry {
-    border-left: 3px solid #333;
+    border-left: 3px solid rosybrown;;
     margin-bottom: 5px;
     cursor: pointer;
 }
+
 #timeline .entry-header {
     background: #e2e2e2;
     padding: 10px;
@@ -64,18 +108,18 @@ h1, p {
     background: #ccc;
     color: #333;
 }
+
 #timeline .entry-content {
     padding-top: 5px;
     padding-left: 2px;
 }
-/* Style for the job description content */
+
 #timeline .entry-content p {
     padding: 5px 10px;
     background: black;
-    /*border-left: 3px solid #333;*/
     display: block;
 }
-/* Adjustments for active class */
+
 .entry.active .entry-header {
     background-color: #e2e2e2;
     color: #333;
@@ -85,7 +129,6 @@ h1, p {
     display: block;
 }
 
-/* Visual cue for clickable items */
 .entry .entry-header:after {
     content: ' (click to expand)';
     font-size: 0.8em;
@@ -97,28 +140,31 @@ h1, p {
     font-size: 0.8em;
     color: #666;
 }
+
 .h2-tech-skills {
     display: flex;
     width: auto;
     justify-content: center;
+    text-align: center;
 }
+
 .h2-software-apps {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
 footer {
     background-color: black;
     width: auto;
-    height: 200px;
+    height: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
+
 .footer-info {
     text-align: center;
     width: fit-content;
-    padding-left: 15px;
 }
