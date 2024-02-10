@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         content.className = 'entry-content';
         content.innerHTML = `<strong>Company:</strong> ${job.company}<br>
                              <strong>Years:</strong> ${job.years}<br>
-                             <p>${job.description}</p>
+                             <p>${job.description}<br></p>
                              <ul><li>${job.bullet1}</li><li>${job.bullet2}</li><li>${job.bullet3}</li><li>${job.bullet4}</li></ul>`;
         content.style.display = 'none';
 
